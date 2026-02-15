@@ -1,0 +1,11 @@
+[project]
+name = "pdf-tools"
+version = "0.1.0"
+description = "Python scripts for extracting annotations and comments from PDF and FDF files"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "chardet>=5.2.0",
+    "lxml>=6.0.2",
+    "pymupdf>=1.27.1",
+]
